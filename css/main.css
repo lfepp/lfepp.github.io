@@ -219,7 +219,8 @@ body {
       flex-direction: column;
       text-align: center;
       background: #004a61;
-      color: #ffee24; }
+      color: #ffee24;
+      outline: 0; }
       .navbar ul #contact:focus .overlay:hover {
         background: #ffee24;
         color: #004a61;
