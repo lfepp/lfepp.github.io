@@ -184,9 +184,9 @@ body {
     height: 80px;
     display: inline-flex;
     justify-content: space-around; }
-    .navbar ul #contact:hover, .navbar ul #contact:active, .navbar ul #contact:focus {
+    .navbar ul #contact:hover, .navbar ul #contact:focus {
       outline: 0; }
-      .navbar ul #contact:hover .overlay, .navbar ul #contact:active .overlay, .navbar ul #contact:focus .overlay {
+      .navbar ul #contact:hover .overlay, .navbar ul #contact:focus .overlay {
         display: block;
         height: 60.015px;
         width: 100%;
@@ -200,7 +200,7 @@ body {
         text-align: center;
         background: #004a61;
         color: #ffee24; }
-        .navbar ul #contact:hover .overlay:hover, .navbar ul #contact:active .overlay:hover, .navbar ul #contact:focus .overlay:hover {
+        .navbar ul #contact:hover .overlay:hover, .navbar ul #contact:focus .overlay:hover {
           background: #ffee24;
           color: #004a61;
           -webkit-transition: 400ms;
