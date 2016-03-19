@@ -120,9 +120,17 @@ body {
   border: 0px solid transparent; }
 
 .social-logo {
+  position: relative;
   width: 120px; }
   .social-logo img {
     width: 120px; }
+  .social-logo:hover {
+    top: -30px;
+    -webkit-transition: 2000;
+    -moz-transition: 2000;
+    -ms-transition: 2000;
+    -o-transition: 2000;
+    transition: 2000; }
 
 .page-header {
   text-align: center;
@@ -269,7 +277,7 @@ body {
         text-align: center; }
       .navbar ul #contact:hover .overlay {
         position: absolute;
-        top: 180px;
+        top: 120px;
         left: 100%;
         padding-left: 3px;
         font-size: 1.1em;
@@ -430,7 +438,8 @@ footer {
     margin: 0 auto; }
   .project-desc iframe {
     width: 80%;
-    height: 500px; }
+    height: 500px;
+    border: 1px solid #2d2d2d; }
   .project-desc .tools {
     margin: 5px auto 90px auto;
     width: 80%;
@@ -443,13 +452,6 @@ footer {
   background-size: cover; }
   #home-header h1 {
     color: #ffee24; }
-
-#portfolio-header {
-  background: center url("../assets/minimal-desk.jpeg"), #f0f0f0;
-  background-size: cover; }
-
-#main-portfolio {
-  margin-top: 90px; }
 
 #about-header {
   background: center url("../assets/meditation.jpg"), #fce2a7;
