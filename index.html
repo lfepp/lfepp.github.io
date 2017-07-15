@@ -1,135 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lucas Epp - San Francisco based software developer, artist, and existential thinker</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Lucas Epp</title>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link href='https://fonts.googleapis.com/css?family=Muli:400,300,700,800,600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css'>
 </head>
-<body ontouchstart="">
-  <header class="page-header" id="home-header">
-    <nav class="navbar">
-      <div class="hamburger-menu" id="hamburger-menu">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <h1>Luke Epp</h1>
-      <ul id="nav">
-        <a href="/" class="nav-link"><li>Home</li></a>
-        <a href="pages/about.html" class="nav-link"><li>About</li></a>
-        <li class="nav-link" id="contact" tabindex="0"><span>Contact</span><a href="mailto:lucasfepp@gmail.com" class="overlay" target="_blank">lucasfepp@gmail.com</a></li>
+
+
+<body>
+  <aside>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="http://localhost:4000">Home</a></li>
+           
+        <li><a href="/contact/">Contact</a></li>
+                                   
+        <!-- <li><a href="/blog">Blog</a></li> -->
+      </ul>
+      </li>
       </ul>
     </nav>
-    <div class="container">
-      <img src="assets/my-picture.png" alt="A handsome developer named Luke Epp">
-      <div class="header-text">
-        <h1 class="home-title">Luke Epp</h1>
-        <p>San Francisco based software developer with a passion for developing elegant solutions to complex problems</p>
-      </div>
+  </div>
+</aside>
+
+
+<header class="header">
+  <div class="title">
+    <h1 class="title-content">Lucas Epp</h1>
+    <h2 class="title-content">Engineer. Designer. Innovator.</h2>
+  </div>
+</header>
+
+
+  
+    <main class="header">
+  
+    <article>
+        <h2>Portfolio</h2>
+  
+  
+    <div>
+      <h3><a href="/projects/pagerduty-cloud-foundry-service">PagerDuty Service for Cloud Foundry</a></h3>
+      <p>The PagerDuty Service for Cloud Foundry are a series of Cloud Foundry applications and service brokers that provide users with helpful tools to integrate their Cloud Foundry environment with PagerDuty. The service broker can be found on <a href="https://network.pivotal.io/products/pagerduty-service-broker" target="_blank">Pivotal Network</a>.</p>
     </div>
-  </header>
-  <main class="portfolio">
-    <h1>Check Out My Work</h1>
-    <div class="section-break"></div>
-    <section>
-      <a href="pages/scheduleduty.html" class="image-container scheduleduty">
-        <span class="overlay">Tell Me More</span>
-      </a>
-      <div class="portfolio-text">
-        <h2>ScheduleDuty</h2>
-        <h3><a href="https://scheduleduty-addon.herokuapp.com/" target="_blank">https://scheduleduty-addon.herokuapp.com</a></h3>
-        <p>ScheduleDuty is a PyPi package that allows you to easily create schedules in PagerDuty by importing a CSV file.</p>
-        <p>Built using Python, Flask, Bootstrap</p>
-        <a href="pages/scheduleduty.html"><button class="call-to-action">Tell Me More</button></a>
-      </div>
-    </section>
-    <div class="section-break"></div>
-    <section>
-      <a href="pages/clear-blog.html" class="image-container clear-blog">
-        <span class="overlay">Tell Me More</span>
-      </a>
-      <div class="portfolio-text">
-        <h2>Clear Blog</h2>
-        <h3><a href="http://blog-udacity-luke.appspot.com/" target="_blank">http://blog-udacity-luke.appspot.com</a></h3>
-        <p>Clear is an intuitive blog where you can focus on what's important: your writing. Whether you want to publish short stories, write poetry, or just dump your thoughts onto the page, Clear is there to help.</p>
-        <p>Built using Python, Google App Engine, Jinja2</p>
-        <a href="pages/clear-blog.html"><button class="call-to-action">Tell Me More</button></a>
-      </div>
-    </section>
-    <div class="section-break"></div>
-    <section>
-      <a href="pages/count-to-pi.html" class="image-container count-to-pi">
-        <span class="overlay">Tell Me More</span>
-      </a>
-      <div class="portfolio-text">
-        <h2>Count to Pi</h2>
-        <h3><a href="http://www.counttopi.com/#/" target="_blank">www.counttopi.com</a></h3>
-        <p>Test your knowledge of pi and see how many digits you know. If you can make it into the top 20 all-time scores you'll be entered onto the scoreboard.</p>
-        <p>Built using NodeJS with Express, AngularJS, MongoDB, and Bootstrap</p>
-        <a href="pages/count-to-pi.html"><button class="call-to-action">Tell Me More</button></a>
-      </div>
-    </section>
-    <div class="section-break"></div>
-    <section>
-      <a href="pages/connecting-congress.html" class="image-container connecting-congress">
-        <span class="overlay">Tell Me More</span>
-      </a>
-      <div class="portfolio-text">
-        <h2>Connecting Congress</h2>
-        <h3><a href="http://www.connectingcongress.com/#/" target="_blank">www.connectingcongress.com</a></h3>
-        <p>Easily use your zip code to search for your local representatives in Congress. We'll also provide you with their social media and email information.</p>
-        <p>Built using NodeJS with Express, AngularJS, and Bootstrap</p>
-        <a href="pages/connecting-congress.html"><button class="call-to-action">Tell Me More</button></a>
-      </div>
-    </section>
-    <div class="section-break"></div>
-    <section>
-      <a href="pages/yelp-tool.html" class="image-container yelp-tool">
-        <span class="overlay">Tell Me More</span>
-      </a>
-      <div class="portfolio-text">
-        <h2>Yelp Admin Tool</h2>
-        <h3><a href="http://yelptool.herokuapp.com/" target="_blank">yelptool.herokuapp.com</a></h3>
-        <p>My <i>Yelp Tool</i> application was designed as an admin tool for the support team at Sprinklr to pull business information from Yelp's public API. The user uploads a plain text file containing comma separated Yelp Buisness IDs. Once these IDs are submitted, the user can watch the progress of the tool in the NodeJS console and a CSV is automatically downloaded with all results upon completion.</p>
-        <p>Built using NodeJS with Express and Bootstrap</p>
-        <a href="pages/yelp-tool.html"><button class="call-to-action">Tell Me More</button></a>
-      </div>
-    </section>
+  
+    <div>
+      <h3><a href="/projects/pagerduty-bluemix-integration">PagerDuty Bluemix Integration</a></h3>
+      <p>The PagerDuty - Bluemix integration connects PagerDuty to Bluemix using Bluemix's OpenWhisk service. The integration creates an OpenWhisk action that users of both platforms can execute to send incidents to the PagerDuty platform.</p>
+    </div>
+  
+    <div>
+      <h3><a href="/projects/pagerduty-account-info">PagerDuty Account Info</a></h3>
+      <p>This Python script exports a PagerDuty account's users, escalation policies, schedules, and teams as CSV files and it is currently being used in production by multiple Fortune 500 companies.</p>
+    </div>
+  
+    <div>
+      <h3><a href="/projects/pagerduty-user-deprovision">PagerDuty User De-Provision</a></h3>
+      <p>Removing users from a PagerDuty account is a laboreous process that involves removing the user from all resources before removing the user from the account. PagerDuty User De-Provision automates the process by removing the user from all resources before requesting the user be fully removed from the account.</p>
+    </div>
+  
+    <div>
+      <h3><a href="/projects/scheduleduty">ScheduleDuty</a></h3>
+      <p>ScheduleDuty is a PyPi package that helps PagerDuty users import schedules from CSV files. <a href="https://github.com/lfepp/scheduleduty-addon" target="_blank">A GUI</a> for ScheduleDuty is available for users who are uncomfortable working on the command line.</p>
+    </div>
+  
+    <div>
+      <h3><a href="/projects/clear-blog">Clear Blog</a></h3>
+      <p>Clear Blog was built on top of Google App Engine to practice local user authentication and authorization. The blog is written using Python with Jinja2 as a templating engine for dynamic content.</p>
+    </div>
+  
+    <div>
+      <h3><a href="/projects/nodejs-binary-search-tree">NodeJS Binary Search Tree</a></h3>
+      <p>This NodeJS module implements a binary search tree with a simple API and is available on <a href="https://www.npmjs.com/package/node-binary-search-tree" target="_blank">npm</a>.</p>
+    </div>
+  
+    <div>
+      <h3><a href="/projects/count-to-pi">Count to Pi</a></h3>
+      <p>Count to Pi is a lightweight game built on the MEAN stack. Users input as many digits of pi as they can and, if they achieve a high score, they are prompted to enter their name and join the current leaderboard.</p>
+    </div>
+  
+    <div>
+      <h3><a href="/projects/contact-congress">Contact Congress</a></h3>
+      <p>Contact Congress was built over the course of one weekend for a hackathon. The application originally used jQuery for all DOM manipulation on the front-end but I later iterated upon this project by migrating to Angular 1.</p>
+    </div>
+  
+    <div>
+      <h3><a href="/projects/yelp-admin-tool">Yelp Admin Tool</a></h3>
+      <p>Yelp Admin Tool was built in one day due to an urgent business need. The tool was designed to be used by a large team with little technical expertise to pull large amounts of data from Yelp's public API.</p>
+    </div>
+  
+
+    </article>
+    
   </main>
-  <footer>
-    <p>Copyright &copy; 2016. Lucas Epp. All rights reserved.</p>
-  </footer>
-  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-74715975-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
+
 </html>
